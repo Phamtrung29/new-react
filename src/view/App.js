@@ -4,7 +4,7 @@ import './App.scss';
 // import MyComponent from './Example/MyComponent';
 import ListToDo from './toDos/listToDo';
 
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 

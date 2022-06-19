@@ -20,6 +20,8 @@ class AddTodo extends React.Component {
         }
         this.props.addNewToDo(todo)
     }
+    
+
     render(){
         let {title} = this.state;
         return(
