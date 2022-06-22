@@ -68,6 +68,10 @@ addNewToDo = (todo) => {
 
         console.log(">>check emty obj: ", isEmplyObj)
         return(
+            <>
+            <p>
+            Simple ToDo App with React.js 
+            </p>
             <div className="list-todo-container">
                 <AddTodo
                     addNewToDo={this.addNewToDo}
@@ -116,6 +120,7 @@ addNewToDo = (todo) => {
                 }      
                 </div>
             </div> 
+            </>
         )
     }
 }
